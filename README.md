@@ -26,3 +26,11 @@ interp(f, l, u, n) -> [f(l), f(l + d), ..., f(u - d)]
 The n resulting values f(l), f(l + d), ..., f(u - d) will be floored to two decimals (except Shell and Nim: see below).
 For that you can use: floor(y * 100.0) / 100.0.
 
+3.[6 kyu] Floating-point Approximation (I)
+Consider the function
+f: x -> sqrt(1 + x) - 1 at x = 1e-15.
+We get: f(x) = 4.44089209850062616e-16
+or something around that, depending on the language.
+This function involves the subtraction of a pair of similar numbers when x is near 0 and the results are significantly erroneous in this region. Using pow instead of sqrt doesn't give better results.
+A "good" answer is 4.99999999999999875... * 1e-16.
+Can you modify f(x) to give a good approximation of f(x) in the neighborhood of 0?
