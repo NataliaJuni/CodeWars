@@ -34,3 +34,8 @@ or something around that, depending on the language.
 This function involves the subtraction of a pair of similar numbers when x is near 0 and the results are significantly erroneous in this region. Using pow instead of sqrt doesn't give better results.
 A "good" answer is 4.99999999999999875... * 1e-16.
 Can you modify f(x) to give a good approximation of f(x) in the neighborhood of 0?
+
+4. [6 kyu] SpinWords Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (like the name of this kata).
+ Strings passed in will consist of only letters and spaces.
+ Spaces will be included only when more than one word is present.
+    
