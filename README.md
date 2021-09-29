@@ -41,5 +41,9 @@ Can you modify f(x) to give a good approximation of f(x) in the neighborhood of 
     
 5. [6 kyu] Array.diff
 Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+It should remove all values from list a, which are present in list b keeping their order
 
-It should remove all values from list a, which are present in list b keeping their order.
+6.[6 kyu] Find The Parity Outlier
+You are given an array (which will have a length of at least 3, but could be very large) containing integers.
+The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer N. 
+Write a method that takes the array as an argument and returns this "outlier" N.
