@@ -39,3 +39,7 @@ Can you modify f(x) to give a good approximation of f(x) in the neighborhood of 
  Strings passed in will consist of only letters and spaces.
  Spaces will be included only when more than one word is present.
     
+5. [6 kyu] Array.diff
+Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+
+It should remove all values from list a, which are present in list b keeping their order.
